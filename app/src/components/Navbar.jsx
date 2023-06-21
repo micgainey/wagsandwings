@@ -1,14 +1,29 @@
 import React from 'react';
 import Logo from './Logo';
+import Row from 'react-bootstrap/row';
+import Col from 'react-bootstrap/col';
+import Button from 'react-bootstrap/button';
+import Container from 'react-bootstrap/container'
+import Navbar from 'react-bootstrap/navbar'
 
-const Navbar = () => {
+
+const MyNavbar = () => {
   return(
-    <>
-      <Logo/>
-      <h1>hello i am the Navbar</h1>
-      
-    </>
+    <Navbar fixed='top'>
+      <Row>
+        <Col 
+          className='d-flex align-items-center justify-content-center'
+        >
+          <a href='/'><Logo /></a>
+        </Col>
+        <Col
+          className='d-flex align-items-center justify-content-center'
+        >
+            <Button variant='outline-success' size='lg'>click me</Button>
+        </Col>
+      </Row>
+    </Navbar>
   )
 }
 
-export default Navbar;
+export default MyNavbar;
