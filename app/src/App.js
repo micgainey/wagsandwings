@@ -1,10 +1,12 @@
+import { Route, Routes } from 'react-router-dom';
 import './styles/App.css'
+import Landing from './pages/Landing'
 
 const App = () => {
   return (
-    <>
-      <h1>app</h1>
-    </>
+    <Routes>
+      <Route path='/' element={<Landing/>}/>
+    </Routes>
   );
 }
 
