@@ -5,7 +5,7 @@ const Navbar = () => {
   return(
     <>
       <Logo/>
-      <h1>hello i am the Navbar</h1>
+      <h1>hello i am the Navbaraaaa</h1>
       
     </>
   )
