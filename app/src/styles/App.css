@@ -1,0 +1,16 @@
+.navbar-right {
+  float: right;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.margin-right-30 {
+  margin-right: 30px;
+}
+
+.margin-left-right-40 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
