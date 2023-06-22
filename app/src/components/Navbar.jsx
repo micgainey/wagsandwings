@@ -9,7 +9,7 @@ import Navbar from 'react-bootstrap/navbar'
 
 const MyNavbar = () => {
   return(
-    <Navbar fixed='top'>
+    <Navbar className='d-flex justify-content-space-between'>
       <Row>
         <Col 
           className='d-flex align-items-center justify-content-center'
@@ -17,9 +17,9 @@ const MyNavbar = () => {
           <a href='/'><Logo /></a>
         </Col>
         <Col
-          className='d-flex align-items-center justify-content-center'
+          className='d-flex align-items-center justify-content-center ms-auto'
         >
-            <Button variant='outline-success' size='lg'>click me</Button>
+            <Button variant='outline-success' size='lg'>Book now!</Button>
         </Col>
       </Row>
     </Navbar>
