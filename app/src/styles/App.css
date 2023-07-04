@@ -45,6 +45,16 @@ h6 {
   text-align: center;
 }
 
+.logo-padding-top-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.margin-logo {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
 #background-gradient {
   background-image: linear-gradient(to bottom right, red, yellow);
 }

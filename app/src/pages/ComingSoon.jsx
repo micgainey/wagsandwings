@@ -7,18 +7,20 @@ import Container from 'react-bootstrap/Container';
 const ComingSoon = () => {
 
   const logoSize = {
-    width: '400',
-    height: '400',
+    width: '384',
+    height: '267',
   }
 
   return (
     <>
       <Container fluid='lg' className='text-center'>
-        <Logo
-          className='image-center'
-          ImageWidth={logoSize.width}
-          ImageHeight={logoSize.height}
-        />
+        <Container className='margin-logo'>
+          <Logo
+            className='image-center'
+            ImageWidth={logoSize.width}
+            ImageHeight={logoSize.height}
+          />
+        </Container>
         <h1 className='text-align-center'>Loving care for your furry & feathery family.</h1>
         <br />
         <h2 className='text-align-center'><strong>Coming soon this August!</strong></h2>
