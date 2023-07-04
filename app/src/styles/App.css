@@ -64,6 +64,6 @@ img {
 #background-gradient {
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to bottom right, white 30%, pink 95%);
+  /* background-image: linear-gradient(to bottom right, white 30%, pink 95%); */
   background-size: cover;
 }
