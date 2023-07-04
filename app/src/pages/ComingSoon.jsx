@@ -13,27 +13,29 @@ const ComingSoon = () => {
 
   return (
     <>
-      <Container fluid='sm' className='text-center'>
-        <Container className='margin-logo'>
-          <Logo
-            className='image-center'
-            ImageWidth={logoSize.width}
-            ImageHeight={logoSize.height}
-          />
-        </Container>
-        <h1 className='text-align-center'>Loving care for your furry & feathery family.</h1>
-        <br />
-        <h2 className='text-align-center'><strong>Coming soon this August!</strong></h2>
-        <h3 className='text-align-center'><strong>Located in Halawa Valley</strong></h3>
+      <Container id='background-gradient'>
+        <Container fluid='sm' className='text-center'>
+          <Container className='margin-logo'>
+            <Logo
+              className='image-center'
+              ImageWidth={logoSize.width}
+              ImageHeight={logoSize.height}
+            />
+          </Container>
+          <h1 className='text-align-center'>Loving care for your furry & feathery family.</h1>
+          <br />
+          <h2 className='text-align-center'><strong>Coming soon this August!</strong></h2>
+          <h3 className='text-align-center'><strong>Located in Halawa Valley</strong></h3>
 
-        {/* Uncomment below to add subsribe button */}
-        {/* <Container className='d-grid gap-2'>
-          <Button
-            className='margin-top-40'
-            variant="success">
-              Subscribe for Updates
-          </Button>
-        </Container> */}
+          {/* Uncomment below to add subsribe button */}
+          {/* <Container className='d-grid gap-2'>
+            <Button
+              className='margin-top-40'
+              variant="success">
+                Subscribe for Updates
+            </Button>
+          </Container> */}
+        </Container>
       </Container>
     </>
   );
