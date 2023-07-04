@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './styles/App.css'
-import Landing from './pages/Landing';
+// import Landing from './pages/Landing';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NewNavbar from './components/NewNavbar';
+// import NewNavbar from './components/NewNavbar';
 import ComingSoon from './pages/ComingSoon';
 
 // The app.js file handles all routes and general website flow. This will include all available routes and redirection. This file also includes the stylesheet for bootstrap
