@@ -3,8 +3,7 @@ import Logo from './Logo';
 import Row from 'react-bootstrap/row';
 import Col from 'react-bootstrap/col';
 import Button from 'react-bootstrap/button';
-import Container from 'react-bootstrap/container'
-import Navbar from 'react-bootstrap/navbar'
+import Navbar from 'react-bootstrap/navbar';
 
 
 const MyNavbar = () => {

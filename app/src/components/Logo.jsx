@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Logo = () => {
-  return <img src={require('../images/logo.jpeg')} alt='logo' width='200px' height='200px'/>
+const Logo = ({ImageWidth, ImageHeight}) => {
+  return <img src={require('../images/logo.jpeg')} alt='logo' width={`${ImageWidth}px`} height={`${ImageHeight}px`}/>
 }
 
 export default Logo;

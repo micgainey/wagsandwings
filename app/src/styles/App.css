@@ -1,3 +1,15 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
 .navbar-right {
   float: right;
 }
@@ -13,4 +25,8 @@
 .margin-left-right-40 {
   margin-left: 40px;
   margin-right: 40px;
+}
+
+.landing-background-1 {
+  background-image: url('/Users/michael/Documents/projects/wagsandwings/app/src/images/landing-background.jpg');
 }
