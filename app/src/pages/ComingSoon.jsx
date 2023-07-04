@@ -13,7 +13,7 @@ const ComingSoon = () => {
 
   return (
     <>
-      <Container fluid='lg' className='text-center'>
+      <Container fluid='sm' className='text-center'>
         <Container className='margin-logo'>
           <Logo
             className='image-center'
