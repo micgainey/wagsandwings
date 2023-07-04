@@ -7,7 +7,7 @@ const Landing = () => {
   return(
     <>
       <Container className='landing-background-1'>
-        
+        something
       </Container>
     </>
   )

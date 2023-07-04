@@ -30,3 +30,21 @@ h6 {
 .landing-background-1 {
   background-image: url('/Users/michael/Documents/projects/wagsandwings/app/src/images/landing-background.jpg');
 }
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.image-center {
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+#background-gradient {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
