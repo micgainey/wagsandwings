@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../components/Logo';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 
 // this is the coming soon page. this is intended to tell our customers a little bit of information and get something deployed. It includes date and location and a subscription for email updates. (not implemented yet)
 const ComingSoon = () => {
@@ -19,18 +19,19 @@ const ComingSoon = () => {
           ImageWidth={logoSize.width}
           ImageHeight={logoSize.height}
         />
-        <h1 className='text-align-center'>Loving care for your furry feathery family. They're not gonna wanna go home.</h1>
+        <h1 className='text-align-center'>Loving care for your furry & feathery family.</h1>
         <br />
-        <h2 className='text-align-center'>Coming soon this August!</h2>
-        <h3 className='text-align-center'>Located in Halawa Valley</h3>
+        <h2 className='text-align-center'><strong>Coming soon this August!</strong></h2>
+        <h3 className='text-align-center'><strong>Located in Halawa Valley</strong></h3>
 
-        <Container className='d-grid gap-2'>
+        {/* Uncomment below to add subsribe button */}
+        {/* <Container className='d-grid gap-2'>
           <Button
             className='margin-top-40'
             variant="success">
               Subscribe for Updates
           </Button>
-        </Container>
+        </Container> */}
       </Container>
     </>
   );
