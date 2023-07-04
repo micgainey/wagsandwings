@@ -5,6 +5,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NewNavbar from './components/NewNavbar';
 import ComingSoon from './pages/ComingSoon';
 
+// The app.js file handles all routes and general website flow. This will include all available routes and redirection. This file also includes the stylesheet for bootstrap
+/**
+ * Landing Page
+ * ComingSoon Page
+ * Navbar
+ * Bootstrap css file
+ */
 const App = () => {
   return (
     <>

@@ -3,6 +3,7 @@ import Logo from '../components/Logo';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
+// this is the coming soon page. this is intended to tell our customers a little bit of information and get something deployed. It includes date and location and a subscription for email updates. (not implemented yet)
 const ComingSoon = () => {
 
   const logoSize = {

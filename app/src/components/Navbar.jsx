@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/col';
 import Button from 'react-bootstrap/button';
 import Navbar from 'react-bootstrap/navbar';
 
-
 const MyNavbar = () => {
   return(
     <Navbar className='d-flex justify-content-space-between'>
