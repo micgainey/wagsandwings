@@ -4,8 +4,8 @@ import Button from 'react-bootstrap/Button'
 
 const NewNavbar = () => {
   return (<>
-    <nav className='d-flex align-items-center justify-content-space-between margin-left-right-40'>
-      <a href='/'><Logo /></a>
+    <nav className='d-flex align-items-center justify-content-space-between margin-left-right-20 padding-top-20'>
+      <a href='/' className='logo-padding-top-bottom'><Logo ImageHeight={180} ImageWidth={180}/></a>
       <Button
         className='d-flex align-items-center justify-content-center margin-right-30'
         variant='outline-success' 
