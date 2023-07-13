@@ -14,7 +14,7 @@ import NewNavbar from './components/NewNavbar';
  */
 const App = () => {
   return (
-    <>
+    <div>
       {/* uncomment below for navbar */}
       <NewNavbar/>
       <Routes>
@@ -23,7 +23,7 @@ const App = () => {
         {/* below is only used for dev of coming soon page */}
         {/* <Route path='/' element={<ComingSoon />} /> */}
       </Routes>
-    </>
+    </div>
   );
 }
 
