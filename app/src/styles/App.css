@@ -1,3 +1,20 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  scroll-snap-type: y proximity;
+}
+
+@media only screen and (max-width: 600px) {
+
+  html {
+    scroll-snap-type: y proximity;
+    /* scroll-padding-top: 30px; */
+  }
+}
+
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
@@ -74,10 +91,18 @@ img {
 
 .background-gradient {
   width: 100vw;
+  /* height: calc(100vh - 120px) !important; */
   height: 100vh;
+  /* margin-top: 120px; */
   background-image: linear-gradient(to bottom right, rgb(73, 163, 89) 30%, white 95%);
+  /* background-color: black; */
   background-size: cover;
   /* scroll-snap-type: start; */
+}
+
+.col-text-align {
+  padding-top: 15%;
+  padding-bottom: auto;
 }
 
 .center {
@@ -85,86 +110,96 @@ img {
   margin: auto;
 }
 
-.vertical-align-center {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-#center-text-landing-container {
-  /* width: auto;
-  height: 100vh;
-  text-align: center;
-  vertical-align: center;
-  display: flex; */
+#landing-container {
+  /* padding-top: 120px; */
   display: flex;
-  /* padding-top: 60%; */
-  width: 80%;
-  height: 100%;
-  margin: auto;
-  /* border-radius: 10px; */
-  /* border: 3px dashed #1c87c9; */
+  width: 100%;
+  /* height: 100%; */
+  /* margin: auto; */
   align-items:center;
   justify-content:center;
 }
 
 @media only screen and (max-width: 600px) {
-  #center-text-landing-container {
+  #landing-container {
     /* width: auto;
     height: 100vh;
     text-align: center;
     vertical-align: center;
     display: flex; */
-    display: flex;
-    width: 80%;
-    height: 60%;
-    margin: auto;
-    /* border-radius: 10px; */
-    /* border: 3px dashed #1c87c9; */
-    align-items:center;
-    justify-content:center;
+    /* display: flex; */
+    /* padding-top: 120px; */
+    width: 90%;
+    height: calc(100vh - 120px) !important;
+    padding-bottom: 200px;
+    /* margin: auto; */
+    /* align-items:center; */
+    /* justify-content:center; */
   }
-}
-
-.h1-weight-300 {
-  font-weight: 300;
-}
-
-#section-2 {
-  width: 100vw;
-  height: 100vh;
-  background-color: green;
-  /* scroll-snap-align: center; */
-}
-
-/* This is important for the navbar because of the weird notch in iphones. We don't want our logo to be part of this. Therefore adding padding or margin is important. */
-.padding-top-navbar {
-  padding-top: 18.67px;
 }
 
 #landing-text {
   color: white;
-  font-weight: normal;
-  font-size: 2rem;
-  text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
-}
-
-html {
-  scroll-snap-type: y mandatory;
-  /* scroll-padding-top: 30px; */
+  font-weight: bold;
+  font-size: 3rem;
+  /* text-shadow: 3px 4px 7px rgba(81,67,21,0.8); */
+  text-shadow: 10px 10px 7px rgba(81,67,21,0.8);
 }
 
 .page-container {
   height: 100vh;
+  /* height: calc(100vh - 120px) !important; */
   /* width: 100%; */
   scroll-snap-align: start;
 }
 
+.page-container-first {
+  height: calc(100vh - 120px) !important;
+  /* height: 100vh; */
+  margin-top: 120px;
+}
+
+.page-container-navbar {
+  height: 120px;
+}
+
+#main-landing-cover {
+  padding-bottom: 200px;
+}
+/* this is for mobile view change snap type to proximity */
+@media only screen and (max-width: 600px) {
+  .page-container {
+    height: 100vh;
+    scroll-snap-align: start;
+    /* margin-top: 120px; */
+    /* padding-top: 120px; */
+  }
+
+  #main-landing-cover {
+    padding-bottom: 0px;
+  }
+
+  .page-container-first {
+    height: calc(100vh + 120px) !important;
+  }
+
+  .page-container-navbar {
+    height: 120px;
+  }
+}
+
 .black {
   background-color: black;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
 }
 
 .white {
   background-color: white;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
 }
 
 .blue {
@@ -180,4 +215,97 @@ html {
 
 .nav-box-shadow {
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  z-index: 100;
 }
+
+#landing-container {
+  /* padding-top: -120px; */
+  background-image: url('../images/mural-example.png');
+  opacity: 1;
+  height: calc(100vh + 120px) !important;
+  width: 100vw;
+  /* padding-top: 120px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-image-landing {
+  border-style:ridge;
+  border-radius: 5%;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .left-column {
+    /* margin-bottom: 2.5%; */
+  }
+}
+
+#right-column-text {
+  margin-top: 5%;
+}
+
+.padding-0 {
+  padding: 0%;
+}
+
+#row-daycare {
+  background-image: url('../images/daycare-example.png');
+  opacity: 1;
+  height: 100vh;
+  width: 50vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#daycare-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.padding-center {
+  padding-top: 12.5%;
+  margin-right: 1.5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .padding-center {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+  }
+
+  #daycare-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin: auto; */
+    width: 100vw;
+    height: 100vh;
+    /* height: calc(100vh - 120px) !important; */
+  }
+
+  #row-daycare {
+    background-image: url('../images/daycare-example.png');
+    opacity: 1;
+    height: 30vh;
+    padding-top: 0px;
+    /* margin-top: 70px; */
+    width: 100vw;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin:auto; */
+    margin-top: 0px;
+  }
+
+  #first-column-daycare-mobile {
+    padding-top: 0px;
+  }
+}
+

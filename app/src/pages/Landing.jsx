@@ -1,30 +1,17 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+import MainLandingCover from '../components/MainLandingCover';
+import Daycare from '../components/Daycare';
 
 const Landing = () => {
   return(
     <>
-      <div className='page-container background-gradient' dir='ltr'>
-        <Container fluid id='center-text-landing-container'>
-          <Row>
-            <Col>
-              <Image src="../src/images/landing-background.jpg" roundedCircle />
-            </Col>
-            <Col>
-              <h1 id='landing-text'>
-                Where your pet's happiness, comfort, and well-being are at the heart of everything we do.
-              </h1>
-            </Col>
-          </Row>
-        </Container>
+      <div classname='page-container-navbar'></div>
+      <div className='page-container-first black' dir='ltr'>
+        <MainLandingCover />
       </div>
-      <div className='page-container white' dir='ltr'>
-        <Container fluid>
-
-        </Container>
+      <div className='page-container background-gradient' dir='ltr'>
+        <Daycare />
       </div>
       <div className='page-container blue' dir='ltr'>
         <Container fluid>
