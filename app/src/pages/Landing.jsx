@@ -6,12 +6,12 @@ import Daycare from '../components/Daycare';
 const Landing = () => {
   return(
     <>
-      <div classname='page-container-navbar'></div>
+      <div className='page-container-navbar'></div>
       <div className='page-container-first black' dir='ltr'>
         <MainLandingCover />
       </div>
       <div className='page-container background-gradient' dir='ltr'>
-        <Daycare />
+        <Daycare id='daycare'/>
       </div>
       <div className='page-container blue' dir='ltr'>
         <Container fluid>

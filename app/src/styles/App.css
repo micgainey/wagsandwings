@@ -9,8 +9,9 @@ html,body {
 
 @media only screen and (max-width: 600px) {
 
-  html {
-    scroll-snap-type: y proximity;
+  html,body {
+    /* scroll-snap-type: y proximity;; */
+    scroll-snap-type: none;
     /* scroll-padding-top: 30px; */
   }
 }
@@ -100,6 +101,15 @@ img {
   /* scroll-snap-type: start; */
 }
 
+@media only screen and (max-width: 600px) {
+  .background-gradient {
+    width: 100vw;
+    background-image: none;
+    background-size: auto;
+    /* height: 10%; */
+  }
+}
+
 .col-text-align {
   padding-top: 15%;
   padding-bottom: auto;
@@ -131,7 +141,7 @@ img {
     /* padding-top: 120px; */
     width: 90%;
     height: calc(100vh - 120px) !important;
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
     /* margin: auto; */
     /* align-items:center; */
     /* justify-content:center; */
@@ -156,7 +166,7 @@ img {
 .page-container-first {
   height: calc(100vh - 120px) !important;
   /* height: 100vh; */
-  margin-top: 120px;
+  /* margin-top: 120px; */
 }
 
 .page-container-navbar {
@@ -169,10 +179,14 @@ img {
 /* this is for mobile view change snap type to proximity */
 @media only screen and (max-width: 600px) {
   .page-container {
-    height: 100vh;
+    height: 0;
     scroll-snap-align: start;
     /* margin-top: 120px; */
     /* padding-top: 120px; */
+  }
+
+  .page-container-navbar {
+    height: 0px;
   }
 
   #main-landing-cover {
@@ -181,10 +195,6 @@ img {
 
   .page-container-first {
     height: calc(100vh + 120px) !important;
-  }
-
-  .page-container-navbar {
-    height: 120px;
   }
 }
 
@@ -259,9 +269,22 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#daycare-container {
+#daycare-title {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  /* text-shadow: 3px 4px 7px rgba(81,67,21,0.8); */
+  text-shadow: 10px 10px 7px rgba(81,67,21,0.8);
+}
+
+#daycare {
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -280,20 +303,20 @@ img {
     margin: 0px;
   }
 
-  #daycare-container {
+  #daycare {
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
     /* margin: auto; */
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     /* height: calc(100vh - 120px) !important; */
   }
 
   #row-daycare {
     background-image: url('../images/daycare-example.png');
     opacity: 1;
-    height: 30vh;
+    height: 40vh;
     padding-top: 0px;
     /* margin-top: 70px; */
     width: 100vw;
@@ -302,6 +325,9 @@ img {
     background-size: cover;
     /* margin:auto; */
     margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   #first-column-daycare-mobile {
