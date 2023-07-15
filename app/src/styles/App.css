@@ -247,12 +247,6 @@ img {
   height: auto;
 }
 
-@media only screen and (max-width: 600px) {
-  .left-column {
-    /* margin-bottom: 2.5%; */
-  }
-}
-
 #right-column-text {
   margin-top: 5%;
 }
