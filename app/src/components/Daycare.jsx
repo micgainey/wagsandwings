@@ -5,11 +5,9 @@ import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
 // import useWindowDimensions from './useWindowDimensions';
 
-
 const Daycare = () => {
   // const { height, width } = useWindowDimensions();
   
-
   return (
     <>
       <Container fluid id='daycare'>
