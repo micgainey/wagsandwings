@@ -7,7 +7,7 @@ html,body {
   scroll-snap-type: y proximity;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 960px) {
 
   html,body {
     /* scroll-snap-type: y proximity;; */
@@ -28,132 +28,60 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 
-img {
-  max-width: 100%;
-  /* width: 90%; */
-  height: auto;
+.color-1 {
+  color: #4aa359;
 }
 
-.navbar-right {
-  float: right;
+.color-2 {
+  color: #347248;
 }
 
-.justify-content-space-between {
-  justify-content: space-between;
-  gap: 30px;
+.color-3 {
+  color: #dcffe7;
 }
 
-.navbar-jc-sb-gap {
-  justify-content: space-between;
-  gap: 30px;
+.color-4 {
+  color: #a3554a;
 }
 
-.margin-right-30 {
-  margin-right: 30px;
+.color-5 {
+  color: #723b34;
 }
 
-.margin-left-right-20 {
-  margin-left: 20px;
-  margin-right: 20px;
+hr.divider-color-1 {
+  border-top: 7px solid;
+  border-radius: 5px;
+  border-color: #4aa359;
 }
 
-.padding-left-right-20 {
-  padding-left: 1em;
-  padding-right: 1em;
+hr.divider-color-2 {
+  border-top: 7px solid;
+  border-radius: 5px;
+  border-color: #347248;
 }
 
-/* .landing-background-1 {
-  background-image: url('/Users/michael/Documents/projects/wagsandwings/app/src/images/landing-background.jpg');
-} */
-
-.margin-top-40 {
-  margin-top: 40px;
+hr.divider-white {
+  border-top: 7px solid;
+  border-radius: 5px;
+  border-color: whitesmoke;
 }
 
-.image-center {
-  margin: auto;
-  display: block;
-  width: 80%;
+hr.divider-color-3 {
+  border-top: 7px solid;
+  border-radius: 5px;
+  border-color: #dcffe7;
 }
 
-.text-align-center {
-  text-align: center;
+hr.divider-color-4 {
+  border-top: 7px solid;
+  border-radius: 5px;
+  border-color: #a3554a;
 }
 
-.logo-padding-top-bottom {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.margin-logo {
-  padding-top: 30px;
-  margin-bottom: 40px;
-}
-
-.background-gradient {
-  width: 100vw;
-  /* height: calc(100vh - 120px) !important; */
-  height: 100vh;
-  /* margin-top: 120px; */
-  background-image: linear-gradient(to bottom right, rgb(73, 163, 89) 30%, white 95%);
-  /* background-color: black; */
-  background-size: cover;
-  /* scroll-snap-type: start; */
-}
-
-@media only screen and (max-width: 600px) {
-  .background-gradient {
-    width: 100vw;
-    background-image: none;
-    background-size: auto;
-    /* height: 10%; */
-  }
-}
-
-.col-text-align {
-  padding-top: 15%;
-  padding-bottom: auto;
-}
-
-.center {
-  width: 50%;
-  margin: auto;
-}
-
-#landing-container {
-  /* padding-top: 120px; */
-  display: flex;
-  width: 100%;
-  /* height: 100%; */
-  /* margin: auto; */
-  align-items:center;
-  justify-content:center;
-}
-
-@media only screen and (max-width: 600px) {
-  #landing-container {
-    /* width: auto;
-    height: 100vh;
-    text-align: center;
-    vertical-align: center;
-    display: flex; */
-    /* display: flex; */
-    /* padding-top: 120px; */
-    width: 90%;
-    height: calc(100vh - 120px) !important;
-    /* padding-bottom: 200px; */
-    /* margin: auto; */
-    /* align-items:center; */
-    /* justify-content:center; */
-  }
-}
-
-#landing-text {
-  color: white;
-  font-weight: bold;
-  font-size: 3rem;
-  /* text-shadow: 3px 4px 7px rgba(81,67,21,0.8); */
-  text-shadow: 10px 10px 7px rgba(81,67,21,0.8);
+hr.divider-color-5 {
+  border-top: 7px solid;
+  border-radius: 5px;
+  border-color: #723b34;
 }
 
 .page-container {
@@ -163,169 +91,12 @@ img {
   scroll-snap-align: start;
 }
 
-.page-container-first {
-  height: calc(100vh - 120px) !important;
-  /* height: 100vh; */
-  /* margin-top: 120px; */
+#navbar {
+  scroll-snap-align: start;
 }
 
-.page-container-navbar {
-  height: 120px;
-}
-
-#main-landing-cover {
-  padding-bottom: 200px;
-}
-/* this is for mobile view change snap type to proximity */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .page-container {
-    height: 0;
-    scroll-snap-align: start;
-    /* margin-top: 120px; */
-    /* padding-top: 120px; */
-  }
-
-  .page-container-navbar {
-    height: 0px;
-  }
-
-  #main-landing-cover {
-    padding-bottom: 0px;
-  }
-
-  .page-container-first {
-    height: calc(100vh + 120px) !important;
+    height: auto;
   }
 }
-
-.black {
-  background-color: black;
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-}
-
-.white {
-  background-color: white;
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white;
-}
-
-.nav-box-shadow {
-  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-  z-index: 100;
-}
-
-#landing-container {
-  /* padding-top: -120px; */
-  background-image: url('../images/mural-example.png');
-  opacity: 1;
-  height: calc(100vh + 120px) !important;
-  width: 100vw;
-  /* padding-top: 120px; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#main-image-landing {
-  border-style:ridge;
-  border-radius: 5%;
-  width: 100%;
-  height: auto;
-}
-
-#right-column-text {
-  margin-top: 5%;
-}
-
-.padding-0 {
-  padding: 0%;
-}
-
-#row-daycare {
-  background-image: url('../images/daycare-example.png');
-  opacity: 1;
-  height: 100vh;
-  width: 50vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#daycare-title {
-  margin: 0;
-  color: white;
-  font-weight: bold;
-  font-size: 3rem;
-  /* text-shadow: 3px 4px 7px rgba(81,67,21,0.8); */
-  text-shadow: 10px 10px 7px rgba(81,67,21,0.8);
-}
-
-#daycare {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.padding-center {
-  padding-top: 12.5%;
-  margin-right: 1.5%;
-}
-
-@media only screen and (max-width: 600px) {
-  .padding-center {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin: 0px;
-  }
-
-  #daycare {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* margin: auto; */
-    width: 100vw;
-    /* height: 100vh; */
-    /* height: calc(100vh - 120px) !important; */
-  }
-
-  #row-daycare {
-    background-image: url('../images/daycare-example.png');
-    opacity: 1;
-    height: 40vh;
-    padding-top: 0px;
-    /* margin-top: 70px; */
-    width: 100vw;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* margin:auto; */
-    margin-top: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #first-column-daycare-mobile {
-    padding-top: 0px;
-  }
-}
-

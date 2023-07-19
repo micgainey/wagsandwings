@@ -1,26 +1,22 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import MainLandingCover from '../components/MainLandingCover';
 import Daycare from '../components/Daycare';
+// import Boarding from '../components/Boarding';
+// import ExtraServices from '../components/ExtraServices';
 
 const Landing = () => {
   return(
     <>
-      <div className='page-container-navbar'></div>
+      <div className='page-container-navbar' />
       <div className='page-container-first black' dir='ltr'>
         <MainLandingCover />
       </div>
       <div className='page-container background-gradient' dir='ltr'>
         <Daycare id='daycare'/>
       </div>
-      <div className='page-container blue' dir='ltr'>
-        <Container fluid>
-
-        </Container>
-      </div>
     </>
 
-  )
+  );
 }
 
 export default Landing;

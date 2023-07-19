@@ -9,10 +9,10 @@ const MainLandingCover = () => {
     <>
       <Container fluid id='landing-container'>
         <Row id='main-landing-cover'>
-          <Col sm className='left-column'>
+          <Col lg className='left-column'>
             <Image id='main-image-landing' src={require('../images/daycare-example.png')} />
           </Col>
-          <Col sm id='right-column-text'>
+          <Col lg id='right-column-text'>
             <Container fluid>
               <h1 id='landing-text'>
                 Where your pet's happiness, comfort, and well-being are at the heart of everything we do.

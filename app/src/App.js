@@ -1,8 +1,12 @@
 import { Route, Routes } from 'react-router-dom';
 import './styles/App.css'
-import Landing from './pages/Landing';
+import NewLanding from './pages/NewLanding/NewLanding';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NewNavbar from './components/NewNavbar';
+// import NewNavbar from './components/NewNavbar';
+import BoardingPage from './pages/Boarding/BoardingPage';
+import DaycarePage from './pages/Daycare/DaycarePage';
+import ExtraServices from './pages/ExtraServices/ExtraServices';
+import Navbar from './componentsv2/OurNavbar';
 // import ComingSoon from './pages/ComingSoon';
 
 // The app.js file handles all routes and general website flow. This will include all available routes and redirection. This file also includes the stylesheet for bootstrap
@@ -16,12 +20,15 @@ const App = () => {
   return (
     <div>
       {/* uncomment below for navbar */}
-      <NewNavbar/>
+      <Navbar id='navbar'/>
       <Routes>
         {/* uncomment next line to work on main site */}
-        <Route path='/' element={<Landing/>}/>
+        <Route path='/' element={<NewLanding/>}/>
         {/* below is only used for dev of coming soon page */}
         {/* <Route path='/' element={<ComingSoon />} /> */}
+        <Route path='/boarding' element={<BoardingPage/>} />
+        <Route path='/daycare' element={<DaycarePage/>} />
+        <Route path='/extra-services' element={<ExtraServices />} />
       </Routes>
     </div>
   );
