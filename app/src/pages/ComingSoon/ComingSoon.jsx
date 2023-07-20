@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../components/Logo';
+import Logo from '../../components/Logo';
 import Container from 'react-bootstrap/Container';
 // import Button from 'react-bootstrap/Button';
 
