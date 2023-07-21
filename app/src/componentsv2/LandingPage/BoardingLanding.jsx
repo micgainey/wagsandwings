@@ -2,9 +2,10 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import useWindowDimensions from '../hooks/useWindowDimensions';
+import useWindowDimensions from '../../hooks/useWindowDimensions';
 import { useEffect, useState } from "react";
 import Button from 'react-bootstrap/Button';
+import { NavLink } from 'react-router-dom';
 
 const BoardingLanding = () => {
 
@@ -66,7 +67,13 @@ const BoardingLanding = () => {
                 </Row>
               </Container>
               <Container className="center padding-tb-10">
-                <Button variant="outline-warning">Learn More</Button>
+                <NavLink to='/boarding'>
+                  <Button
+                    variant="outline-light"
+                    >
+                    Learn More
+                  </Button>
+                </NavLink>
               </Container>
               <hr className='divider-color-3'/>
             </Container>
@@ -119,7 +126,13 @@ const BoardingLanding = () => {
               </Container>
               <br />
               <Container className="center">
-                <Button variant="outline-light">Learn More</Button>
+                <NavLink to='/boarding'>
+                  <Button
+                    variant="outline-light"
+                    >
+                    Learn More
+                  </Button>
+                </NavLink>
               </Container>
               <hr className='divider-white'/>
             </Container>
@@ -133,8 +146,6 @@ const BoardingLanding = () => {
       </Container>
     );
   }
-
-  
 
   return windowWidth >= breakpoint ? <Desktop/> : <Mobile/>
 }

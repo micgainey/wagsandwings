@@ -1,15 +1,16 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container'
+import './daycare.css'
 
 // This page will contain everything you need to know about daycare
 // all policies will be on this page and fees.
 const DaycarePage = () => {
   return (
     <>
-      <Container>
+      <Container className=''>
         <h1>Daycare</h1>
 
-        <Container>
+        <Container className=''>
           <h2>Policies:</h2>
           <ul>
             <li>

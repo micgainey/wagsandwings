@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 const DaycareLanding = () => {
   return (
@@ -41,9 +42,11 @@ const DaycareLanding = () => {
             </Container>
             <br />
             <Container className="center padding-tb-10">
-              <Button variant="outline-success">
-                Learn More
-              </Button>
+              <Link to='/daycare'>
+                <Button variant="outline-success">
+                  Learn More
+                </Button>
+              </Link>
             </Container>
             <hr className='divider-color-2'/>
           </Container>
