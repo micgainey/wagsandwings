@@ -33,6 +33,10 @@
   margin-bottom: 2.5%;
 }
 
+#daycare-content-container {
+  width: auto;
+}
+
 .center {
   text-align: center;
 }

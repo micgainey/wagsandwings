@@ -35,11 +35,14 @@ const DaycarePage = () => {
           </Row>
         </Container>
         <hr className='divider-color-5'/>
-        <Container>
+        <Container id='daycare-content-container'>
           <h4>Content about daycare goes here</h4>
         </Container>
         <hr className='divider-color-2'/>
-        <DaycarePolicies />
+        <Container>
+          <h3>Policies</h3>
+          <DaycarePolicies />
+        </Container>
       </Container>
     );
   }
