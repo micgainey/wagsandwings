@@ -1,0 +1,53 @@
+.daycare-page-container {
+  max-width: 960px;
+  margin: auto;
+  margin-top: 3.5%;
+  padding-bottom: 2.5%;
+}
+
+.daycare-background-1 {
+  background-image: url('../../images/daycare-room-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  min-width: 300px;
+  height: auto;
+  min-height: 400px;
+  margin:auto;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.daycare-background-2 {
+  background-image: url('../../images/daycare-room-2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  min-width: 300px;
+  height: auto;
+  min-height: 300px;
+  margin: auto;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.center {
+  text-align: center;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+.center-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-spacing-daycare {
+  line-height: 130%;
+}
+
