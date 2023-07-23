@@ -105,3 +105,17 @@ hr.divider-color-5 {
     height: auto;
   }
 }
+
+.center {
+  text-align: center;
+}
+
+.promotion-image {
+  background-image: url('../images/anna-dudkova--KWX2LlZ_3M-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  z-index: 0;
+}

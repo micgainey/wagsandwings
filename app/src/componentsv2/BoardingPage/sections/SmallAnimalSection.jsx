@@ -18,7 +18,7 @@ function SmallAnimalSection() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header>Accordion Item #2</Accordion.Header>
+          <Accordion.Header>Policies</Accordion.Header>
           <Accordion.Body>
             <SmallAnimalPolicies />
           </Accordion.Body>

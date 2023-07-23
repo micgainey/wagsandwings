@@ -22,6 +22,8 @@ const OurNavbar = () => {
             </Nav>
             <Nav>
             <Button
+              href='https://wagsnwingshawaii.portal.gingrapp.com/'
+              target='_blank'
               variant='outline-success' 
               size='md'>
                 Book now!

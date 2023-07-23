@@ -37,6 +37,14 @@ const DaycarePage = () => {
         <Container id='daycare-content-container'>
           <DaycareContent />
         </Container>
+        <Row className='center padding-top-10'>
+          <Col>
+            <h4>Half day: $35.00</h4>
+          </Col>
+          <Col>
+            <h4>Half day: $35.00</h4>
+          </Col>
+        </Row>
         <hr className='divider-color-2'/>
         <Container>
           <h3>Policies</h3>

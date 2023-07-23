@@ -5,6 +5,10 @@
   padding-bottom: 2.5%;
 }
 
+.padding-top-10 {
+  padding-top: 1rem;
+}
+
 .daycare-background-1 {
   background-image: url('../../images/justin-veenema-NH1d0xX6Ldk-unsplash.jpg');
   background-position: center;
