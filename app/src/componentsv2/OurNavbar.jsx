@@ -19,6 +19,7 @@ const OurNavbar = () => {
               <Nav.Link href='extra-services'>Extra Services</Nav.Link>
               <Nav.Link href='about-us'>About Us</Nav.Link>
               <Nav.Link href='health-and-safety'>Health & Safety</Nav.Link>
+              <Nav.Link href='contact'>Contact Us</Nav.Link>
             </Nav>
             <Nav>
             <Button

@@ -9,6 +9,8 @@ import ExtraServices from './pages/ExtraServices/ExtraServices';
 import Navbar from './componentsv2/OurNavbar';
 import AboutUs from './pages/AboutUs/AboutUsPage';
 import HealthAndSafetyPage from './pages/HealthAndSafety/HealthAndSafetyPage';
+import NotFound from './pages/NotFound';
+import ContactPage from './pages/Contact/ContactPage';
 
 // The app.js file handles all routes and general website flow. This will include all available routes and redirection. This file also includes the stylesheet for bootstrap
 /**
@@ -33,6 +35,8 @@ const App = () => {
         <Route path='/daycare' element={<DaycarePage/>} />
         <Route path='/extra-services' element={<ExtraServices />} />
         <Route path='/health-and-safety' element={<HealthAndSafetyPage />} />
+        <Route path='/contact' element={<ContactPage />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </div>
   );

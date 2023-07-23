@@ -119,3 +119,7 @@ hr.divider-color-5 {
   height: 500px;
   z-index: 0;
 }
+
+.contact-page-container {
+  max-width: 600px;
+}
