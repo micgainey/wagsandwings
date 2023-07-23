@@ -6,7 +6,7 @@
 }
 
 .daycare-background-1 {
-  background-image: url('../../images/daycare-room-1.png');
+  background-image: url('../../images/justin-veenema-NH1d0xX6Ldk-unsplash.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,8 +19,8 @@
   margin-bottom: 2.5%;
 }
 
-.daycare-background-2 {
-  background-image: url('../../images/daycare-room-2.png');
+/* .daycare-background-2 {
+  background-image: url();
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +31,7 @@
   margin: auto;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
-}
+} */
 
 #daycare-content-container {
   width: auto;

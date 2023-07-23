@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 
 const ExtraServicesLanding = () => {
   return (
@@ -10,7 +11,7 @@ const ExtraServicesLanding = () => {
       <Row>
         <Col lg id='extra-services-background'>
           {/* This will be the image on the left */}
-          <h1 className='vertical-center center title'>Extra Services</h1>
+          {/* <h1 className='vertical-center center title'>Extra Services</h1> */}
         </Col>
         <Col lg className='parent'>
           {/* This will be the info on the right */}
@@ -22,7 +23,11 @@ const ExtraServicesLanding = () => {
             </h5>
             <br />
             <Container className="center">
-              <Button variant="outline-success">Learn More</Button>
+              <Link to='/extra-services'>
+                <Button variant="outline-success">
+                  Learn More
+                </Button>
+              </Link>
             </Container>
             <hr className='divider-color-2'/>
           </Container>

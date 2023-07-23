@@ -25,9 +25,9 @@ const BoardingLanding = () => {
       <Container fluid className='page-container color-2-background'>
         <Row>
           <Col lg id='boarding-background'>
-            <h1 className='vertical-center center title'>
+            {/* <h1 className='vertical-center center title'>
               Boarding
-            </h1>
+            </h1> */}
           </Col>
           <Col lg className='parent'>
             <Container>
@@ -138,9 +138,9 @@ const BoardingLanding = () => {
             </Container>
           </Col>
           <Col lg id='boarding-background'>
-            <h1 className='vertical-center center title'>
+            {/* <h1 className='vertical-center center title'>
               Boarding
-            </h1>
+            </h1> */}
           </Col>
         </Row>
       </Container>

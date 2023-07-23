@@ -8,10 +8,10 @@ const MainLanding = () => {
     <Container fluid>
       <Row className='background'>
         <Col lg className='parent-main vertical-center'>
-          <h1 className='child vertical-center'>Image of the building/sign</h1>
+          <h1 className='child vertical-center title'>Wags 'n' Wings, where your pet children come to play.</h1>
         </Col>
         <Col lg className='parent-main vertical-center'>
-          <h1 className='child vertical-center'>Something else goes here</h1>
+          {/* <h1 className='child vertical-center'>Something else goes here</h1> */}
         </Col>
       </Row>
     </Container>

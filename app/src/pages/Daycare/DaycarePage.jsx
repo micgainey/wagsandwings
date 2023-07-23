@@ -5,6 +5,7 @@ import BlankComponent from '../../componentsv2/BlankComponent';
 import DaycarePolicies from '../../componentsv2/DaycarePage/DaycarePolicies';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import DaycareContent from '../../componentsv2/DaycarePage/DaycareContent';
 
 // This page will contain everything you need to know about daycare
 // all policies will be on this page and fees.
@@ -36,7 +37,7 @@ const DaycarePage = () => {
         </Container>
         <hr className='divider-color-5'/>
         <Container id='daycare-content-container'>
-          <h4>Content about daycare goes here</h4>
+          <DaycareContent />
         </Container>
         <hr className='divider-color-2'/>
         <Container>

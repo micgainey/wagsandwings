@@ -11,7 +11,7 @@ const DaycareLanding = () => {
       <Row>
         <Col lg id='daycare-background'>
           {/* This will be the image on the left */}
-          <h1 className='vertical-center center title'>Daycare</h1>
+          {/* <h1 className='vertical-center center title'>Daycare</h1> */}
         </Col>
         <Col lg className='parent'>
           {/* This will be the info on the right */}
