@@ -7,11 +7,7 @@ import Col from 'react-bootstrap/Col';
 const AboutUs = () => {
   return (
     <Container className='au-page-container'>
-      {/* <hr /> */}
-      <br />
-      <Row>
-        <div className='aboutus-photo'></div>
-      </Row>
+      <div className='aboutus-photo'></div>
       <br />
       <br />
       <Container id='about-us-container'>
