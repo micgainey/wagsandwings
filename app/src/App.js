@@ -7,6 +7,7 @@ import BoardingPage from './pages/Boarding/BoardingPage';
 import DaycarePage from './pages/Daycare/DaycarePage';
 import ExtraServices from './pages/ExtraServices/ExtraServices';
 import Navbar from './componentsv2/OurNavbar';
+import AboutUs from './pages/AboutUs/AboutUsPage';
 
 // The app.js file handles all routes and general website flow. This will include all available routes and redirection. This file also includes the stylesheet for bootstrap
 /**
@@ -27,6 +28,7 @@ const App = () => {
         {/* below is only used for dev of coming soon page */}
         {/* <Route path='/' element={<ComingSoon />} /> */}
         <Route path='/boarding' element={<BoardingPage/>} />
+        <Route path='/about-us' element={<AboutUs />} />
         <Route path='/daycare' element={<DaycarePage/>} />
         <Route path='/extra-services' element={<ExtraServices />} />
       </Routes>

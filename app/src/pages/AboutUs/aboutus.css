@@ -1,0 +1,50 @@
+.au-page-container {
+  max-width: 960px;
+  margin: auto;
+  margin-top: 3.5%;
+  padding-bottom: 2.5%;
+}
+
+.center {
+  text-align: center;
+}
+
+.col-border {
+  padding-top: 10px;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 1px;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+}
+
+#about-us-container {
+  max-width: 60%;
+}
+
+.aboutus-photo {
+  background-image: url('../../images/tim-mossholder-WyDXNgmq8RE-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+  height: 50vh;
+  z-index: 0;
+}
+
+.transparent {
+  color: transparent;
+}
+
+.hide-behind {
+  z-index: 1;
+}
+
+*.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

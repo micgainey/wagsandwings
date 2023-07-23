@@ -2,7 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from '../components/Logo';
 import Button from 'react-bootstrap/Button';
 
@@ -18,6 +17,7 @@ const OurNavbar = () => {
               <Nav.Link href="daycare">Daycare</Nav.Link>
               <Nav.Link href="boarding">Boarding</Nav.Link>
               <Nav.Link href='extra-services'>Extra Services</Nav.Link>
+              <Nav.Link href='about-us'>About Us</Nav.Link>
             </Nav>
             <Nav>
             <Button
