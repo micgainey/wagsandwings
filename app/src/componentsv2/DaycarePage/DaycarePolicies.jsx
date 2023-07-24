@@ -9,7 +9,7 @@ function DaycarePolicies() {
           No dogs in heat.
         </li>
         <li>
-          No age policy. But the health of the dog must be in good standing. We have accommodations for senior dogs. We will also take dogs with disabilities. Please inquire for rates.
+          No age policy. But the health of the dog must be in good standing. We have accommodations for senior dogs. We will also consider dogs with disabilities. Please inquire for rates.
         </li>
         <li>
           Your pet must be up to date on all vaccinations, and proof of documentation must be uploaded into our system prior to boarding or daycare.

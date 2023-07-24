@@ -42,7 +42,7 @@ const DaycarePage = () => {
             <h4>Half day: $35.00</h4>
           </Col>
           <Col>
-            <h4>Half day: $35.00</h4>
+            <h4>Full day: $45.00</h4>
           </Col>
         </Row>
         <hr className='divider-color-2'/>

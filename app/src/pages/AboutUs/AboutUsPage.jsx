@@ -19,7 +19,7 @@ const AboutUs = () => {
         <Col>
           {/* <hr className='divider-color-5'/> */}
           <h5>
-            Introducing Wags ‘n’ Wings, Oahu’s newest pet daycare and boarding facility, offering a wide range of services tailored to pets of all kinds. Our offerings include boarding, daycare, and bathing, as well as enrichment activists, ensuring that your beloved companions receive top-notch care.
+            Introducing Wags ‘n’ Wings, Oahu’s newest pet daycare and boarding facility, offering a wide range of services tailored to pets of all kinds. Our offerings include boarding, daycare, and bathing, as well as enrichment activities, ensuring that your beloved companions receive top-notch care.
           </h5>
           <h5>
             At Wags ‘n’ Wings, your pet’s safety is our top priority. That is why we maintain an incredibly low pet to human ratio, with no more than 10 pets per attentive caregiver. This ensures that each furry, feathery, or scaly friend receives personalized attention and supervision throughout their stay.
