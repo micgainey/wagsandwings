@@ -13,7 +13,7 @@ function BirdSection() {
       <Accordion.Item eventKey="0">
         <Accordion.Header>Pricing</Accordion.Header>
         <Accordion.Body>
-          <p>$20.00 - $35.00/Day</p>
+          <p>$20.00 - $35.00/Day (per bird)</p>
           <p>Depending on bird size and required care; Connect with Rya</p>
         </Accordion.Body>
       </Accordion.Item>

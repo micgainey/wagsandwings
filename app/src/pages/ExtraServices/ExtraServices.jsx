@@ -22,7 +22,7 @@ const ExtraServices = () => {
       },
       {
         name: 'Story Time and Belly Rubs (15 Min)',
-        description: 'Your pup will have 1 on 1 time with our expert “cuddlers” in our Doggy suite to hang out and cuddle. The Doggy suite is lovingly decorated like a living room that will make them feel like home. Reccomended for boarding dogs who will be away from their pet parents for an extended period of time. (Boarding only)',
+        description: 'Your pup will have 1 on 1 time with our expert “cuddlers” in our Doggy suite to hang out and cuddle. The Doggy suite is lovingly decorated like a living room that will make them feel like they are home. Recommended for boarding dogs who will be away from their pet parents for an extended period of time. (Boarding only)',
         price: '$15.00',
       },
     ],
@@ -110,7 +110,8 @@ const ExtraServices = () => {
         <Container className='es-page-container'>
           <h1>Extra Services</h1>
           <h4>
-            If you want to give your dog a some extra delight in daycare or boarding, these additional activities are avalible for purchase.
+            To enhance your pet's experience during their boarding or daycare stays, Wags 'n' Wings offers the following services. 
+            We are looking to expand our offerings to include more advanced grooming and behavioral training by appointment.
           </h4>
           <br />
           <Row xs={1} md={2} className="g-4">
@@ -130,8 +131,6 @@ const ExtraServices = () => {
             ))}
           </Row>
         </Container>
-
-
 
         {/* This container contains the two spa packages we offer  */}
         <Container className='es-page-container'>

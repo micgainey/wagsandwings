@@ -19,10 +19,9 @@ const HealthAndSafetyPage = () => {
       <br />
       <Row>
         <Col>
-          <h3>Some of the main health and safety features:</h3>
           <ul>
             <li>We have a low pet to human ratio with no more than 10 pets to attentive caregiver.</li>
-            <li>When you drop off your pet, we have secure holding areas at our entry, and dog runs so pets can decompress and relax before entering common areas.</li>
+            <li>When you drop off your pet, we have secure holding areas at our entry and dog runs, so pets can decompress and relax before entering common areas.</li>
             <li>Our team of care givers attended training by experienced dog trainer Marie Selarque, CPDT-KA of Pro Dog Hawaii, ensuring that we are equipped with the skills necessary to ensure a safe and fun environment.</li>
             <li>Filtered Water is available to your pets at all times, with timers set to replenish or change water dispensers throughout the day. Water tests will be done monthly.</li>
             <li>We use Veterinary grade cleaning supplies, with cleaning protocols in place to ensure that our facility is free of harmful germs or bacteria.</li>

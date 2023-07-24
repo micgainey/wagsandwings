@@ -35,7 +35,7 @@ function DaycarePolicies() {
           If your dog requires prescription medications, you must bring it in a sealed container with detailed instructions on how to administer and store. (+$5.00 for each medication)
         </li>
         <li>
-          Dogs are required to participate in a behavior evaluation. (half-day) At the cost of the owner. ($30.00)
+          Dogs are required to participate in a behavior evaluation. (half-day: $30.00)
         </li>
         <li>
           All dogs must be non-aggressive and not show any food/toy possessiveness.
