@@ -18,7 +18,7 @@ const ExtraServices = () => {
       {
         name: '15min Walk',
         description: 'You can reserve a 15 minute walk where your pup gets personalized time with one dog per handler. Please provide a well fitted harness, and leash. (Boarding only)',
-        price: '$20.00',
+        price: '$15.00',
       },
       {
         name: 'Story Time and Belly Rubs (15 Min)',
