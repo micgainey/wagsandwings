@@ -1,9 +1,16 @@
 import { Route, Routes } from 'react-router-dom';
 import './styles/App.css'
-// import Landing from './pages/Landing';
+import NewLanding from './pages/NewLanding/NewLanding';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import NewNavbar from './components/NewNavbar';
-import ComingSoon from './pages/ComingSoon';
+import BoardingPage from './pages/Boarding/BoardingPage';
+import DaycarePage from './pages/Daycare/DaycarePage';
+import ExtraServices from './pages/ExtraServices/ExtraServices';
+import Navbar from './componentsv2/OurNavbar';
+import AboutUs from './pages/AboutUs/AboutUsPage';
+import HealthAndSafetyPage from './pages/HealthAndSafety/HealthAndSafetyPage';
+import NotFound from './pages/NotFound';
+import ContactPage from './pages/Contact/ContactPage';
 
 // The app.js file handles all routes and general website flow. This will include all available routes and redirection. This file also includes the stylesheet for bootstrap
 /**
@@ -13,17 +20,25 @@ import ComingSoon from './pages/ComingSoon';
  * Bootstrap css file
  */
 const App = () => {
+
   return (
-    <>
+    <div>
       {/* uncomment below for navbar */}
-      {/* <NewNavbar/> */}
+      <Navbar id='navbar'/>
       <Routes>
         {/* uncomment next line to work on main site */}
-        {/* <Route path='/' element={<Landing/>}/> */}
+        <Route path='/' element={<NewLanding/>}/>
         {/* below is only used for dev of coming soon page */}
-        <Route path='/' element={<ComingSoon />} />
+        {/* <Route path='/' element={<ComingSoon />} /> */}
+        <Route path='/boarding' element={<BoardingPage/>} />
+        <Route path='/about-us' element={<AboutUs />} />
+        <Route path='/daycare' element={<DaycarePage/>} />
+        <Route path='/extra-services' element={<ExtraServices />} />
+        <Route path='/health-and-safety' element={<HealthAndSafetyPage />} />
+        <Route path='/contact' element={<ContactPage />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
