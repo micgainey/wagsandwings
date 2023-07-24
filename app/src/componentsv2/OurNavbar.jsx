@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../components/Logo';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 
 const OurNavbar = () => {
   return (
@@ -22,13 +22,13 @@ const OurNavbar = () => {
               <Nav.Link href='contact'>Contact Us</Nav.Link>
             </Nav>
             <Nav>
-            <Button
+            {/* <Button
               href='https://wagsnwingshawaii.portal.gingrapp.com/'
               target='_blank'
               variant='outline-success' 
               size='md'>
                 Book now!
-            </Button>
+            </Button> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

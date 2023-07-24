@@ -12,7 +12,7 @@ const ContactPage = () => {
       </Row>
       <br />
       <Row xs={1} sm={2} md={2} lg={2} className='center'>
-        <Col><h4>Phone: <a href='tel:808-517-3200'> (808)517-3200</a></h4></Col>
+        <Col><h4>Text: <a href='tel:808-226-3749'> (808)226-3749</a></h4></Col>
         <Col>
           <Row><h4>6:30am-6:30pm Mon-Fri</h4></Row>
           <Row><h4>7:00am-6:30pm Sat & Sun</h4></Row>
