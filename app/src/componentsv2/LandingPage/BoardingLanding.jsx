@@ -33,7 +33,7 @@ const BoardingLanding = () => {
             <Container>
               <hr className='divider-color-3'/>
               <h2 className='white-text'>
-                Boarding
+                <strong>Boarding</strong>
               </h2>
               <h5 className='white-text line-spacing-landing'>
                 When you choose to board your pet at Wags ‘n’ Wings Hawaii, pet safety is our top priority. With a low pet-to-human ratio, and team member(s) on site 24 hours per day, your pet will be safe while having fun!
@@ -91,10 +91,10 @@ const BoardingLanding = () => {
             <Container className="landing-content-container">
               <hr className='divider-color-3'/>
               <h2 className='white-text'>
-                Boarding
+                <strong>Boarding</strong>
               </h2>
               <h5 className='white-text line-spacing-landing'>
-                When you choose to board your pet at Wags ‘n’ Wings Hawaii, pet safety is our top priority. With a low pet-to-human ratio, and team member(s) on site 24 hours per day, your pet will be safe while having fun!
+                When you choose to board your pet at Wags ‘n’ Wings Hawaii, pet safety is our top priority. With a low pet-to-human ratio and team members on site 24 hours per day, your pet will be safe while having fun!
               </h5>
               <h5 className="white-text line-spacing-landing">
                 Hawaii’s hot days and humid nights won’t be an issue in our fully air-conditioned facility, and we have spacious kennels that are adjustable to meet the size requirement of your pets!

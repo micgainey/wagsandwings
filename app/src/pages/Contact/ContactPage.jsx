@@ -8,7 +8,7 @@ const ContactPage = () => {
     <Container className='contact-page-container'>
       <br />
       <Row className='center'>
-        <h1>Contact Us:</h1>
+        <h1><strong>Contact Us:</strong></h1>
       </Row>
       <br />
       <Row xs={1} sm={2} md={2} lg={2} className='center'>

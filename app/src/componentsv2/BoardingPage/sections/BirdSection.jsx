@@ -6,7 +6,7 @@ import Accordion from 'react-bootstrap/Accordion';
 function BirdSection() {
   return (
     <div>
-      <h3 className=''>Birds</h3>
+      <h3 className=''><strong>Birds</strong></h3>
       <BirdOffer />
       <br />
       <Accordion defaultActiveKey="0">
@@ -14,7 +14,7 @@ function BirdSection() {
         <Accordion.Header>Pricing</Accordion.Header>
         <Accordion.Body>
           <p>$20.00 - $35.00/Day (per bird)</p>
-          <p>Depending on bird size and required care; Connect with Rya</p>
+          <p>Depending on bird size and required care; Please email <a href = "mailto: rya@wagsnwings.com">rya@wagsnwings.com</a> to discuss options.</p>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">

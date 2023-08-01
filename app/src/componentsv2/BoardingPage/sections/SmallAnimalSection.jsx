@@ -6,7 +6,7 @@ import Accordion from 'react-bootstrap/Accordion';
 function SmallAnimalSection() {
   return (
     <div>
-      <h3 className=''>Small Animals</h3>
+      <h3 className=''><strong>Small Animals</strong></h3>
       <SmallAnimalOffer />
       <br />
       <Accordion defaultActiveKey="0">

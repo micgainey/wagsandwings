@@ -17,7 +17,7 @@ const DaycareLanding = () => {
           {/* This will be the info on the right */}
           <Container className="landing-content-container">
             <hr className='divider-color-1'/>
-            <h2 className='color-5'>Daycare</h2>
+            <h2 className='color-5'><strong>Daycare</strong></h2>
             <h5 className='color-5 line-spacing-landing'>
               There’s nothing better than knowing that your pet is safe, and having fun while you are apart. Our Day Care program features flexible options ranging from all day play, to enrichment and interaction activities. We have a tailored program to accommodate all ages and temperaments.
             </h5>

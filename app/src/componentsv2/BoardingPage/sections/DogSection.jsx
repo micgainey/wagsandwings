@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 function DogSection() {
   return (
     <div>
-      <h3 className=''>Dogs</h3>
+      <h3 className=''><strong>Dogs</strong></h3>
       <DogOffer />
       <br />
       <Accordion defaultActiveKey="0">
