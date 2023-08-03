@@ -17,7 +17,7 @@ const ExtraServices = () => {
       },
       {
         name: '15min Walk',
-        description: 'You can reserve a 15 minute walk where your pup gets personalized time with one dog per handler. Please provide a well fitted harness, and leash. (Boarding only)',
+        description: 'You can reserve a 15 minute walk where your pup gets personalized time with one dog per handler. Please provide a well fitted harness and leash. (Boarding only)',
         price: '$15.00',
       },
       {
@@ -50,7 +50,7 @@ const ExtraServices = () => {
       {
         name: 'Pawfect Pooch',
         description: [
-          'Bath with upgraded Shampoo and Conditioner',
+          'Bath with upgraded shampoo and conditioner',
           'Blow dry',
           'Spritz',
           'Pick 2: Nail-trim, Ears Cleaned, Paw Pad trim and Balm'
@@ -108,7 +108,7 @@ const ExtraServices = () => {
         
         {/* This container contains all the addons we offer for daycare and boarding */}
         <Container className='es-page-container'>
-          <h1>Extra Services</h1>
+          <h1><strong>Extra Services</strong></h1>
           <h4>
             To enhance your pet's experience during their boarding or daycare stays, Wags 'n' Wings offers the following services. 
             We are looking to expand our offerings to include more advanced grooming and behavioral training by appointment.

@@ -17,13 +17,13 @@ const DogPolicies = () => {
           Cost of boarding will be determined by the weight of your dog.
         </li>
         <li>
-          While your dog is boarding they will participate in daycare activities. Because of this, they will need to attend 1 half-day of daycare at least 2 weeks before boarding dates.
+          While your dog is boarding, they will participate in daycare activities. Because of this, they will need to attend 1 half-day of daycare at least 2 weeks before boarding dates.
         </li>
         <li>
-          Since dogs have different dietary needs you will need to provide food portioned in individual ziplock bags for each meal. We also ask that you provide a feeding schedule that your pet is accustomed to.
+          Since dogs have different dietary needs, you will need to provide food portioned in individual ziplock bags for each meal. We also ask that you provide a feeding schedule that your pet is accustomed to.
         </li>
         <li>
-          If your dog requires prescription medications, you bring it in a sealed container with detailed instructions on how to administer and store. (+$5.00 for each medication)
+          If your dog requires prescription medications, please bring it in a sealed container with detailed instructions on how to administer and store. (+$5.00 for each medication)
         </li>
         <li>
           No refunds for early pickup.

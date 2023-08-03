@@ -6,7 +6,7 @@ import Accordion from 'react-bootstrap/Accordion';
 function CatSection() {
   return (
     <div>
-      <h3 className=''>Cats</h3>
+      <h3 className=''><strong>Cats</strong></h3>
       <CatOffer />
       <br />
       <Accordion defaultActiveKey="0">

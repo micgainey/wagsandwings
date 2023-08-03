@@ -11,7 +11,7 @@ const HealthAndSafetyPage = () => {
       <br />
       <br />
       <Container id='hns-title-container'>
-        <h1 className='center'>Your pets Health and Safety is our top priority!</h1>
+        <h1 className='center'><strong>Your pet's Health and Safety is our top priority!</strong></h1>
         <hr className='divider-color-2'/>
       </Container>
       {/* <h1 className='center'>Your pets Health and Safety is our top priority!</h1> */}
@@ -27,7 +27,13 @@ const HealthAndSafetyPage = () => {
             <li>We use Veterinary grade cleaning supplies, with cleaning protocols in place to ensure that our facility is free of harmful germs or bacteria.</li>
             <li>Our facility is outfitted with Central Air throughout, and large fans in our kennel and dog run ensure that there is constant air circulation.</li>
             <li>We have team members scheduled 24 hours per day to address the needs of our guests and handle any issues that could arise. </li>
-            <li>In the event that we need Veterinary assistance we have Dr. Eric Ako, DVM to call on. </li>
+            <li>
+              In the event that we need Veterinary assistance we have Dr. Eric Ako BS DVM, to call on. 
+              <ul>
+                <li><strong>Executive Officer</strong> Hawaii Vet Medical Association (32 years)</li>
+                <li><strong>Founder</strong> Windward CC Veterinary Technology Program</li>
+              </ul>
+            </li>
           </ul>
         </Col>
       </Row>

@@ -22,7 +22,7 @@ const DaycarePage = () => {
   } else {
     return (
       <Container className='daycare-page-container'>
-        <h1>Daycare</h1>
+        <h1><strong>Daycare</strong></h1>
         <Container>
           <Row className='center'>
             <Col>

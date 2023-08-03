@@ -25,7 +25,7 @@ const BoardingPage = () => {
         {/* Main intro content */}
         <Container fluid className=''>
           <Container fluid className='boarding-page-container'>
-            <h1>Boarding</h1>
+            <h1><strong>Boarding</strong></h1>
             <h4 className=''>
               Wags ’n’ Wings prides itself on its inclusivity; we warmly welcome pets of all types, whether they sport fur, feathers, or scales. Yes, that means we happily accommodate tortoises, pet pigs, rats, rabbits, guinea pigs, and more. All it takes is space available, and a conversation about care, needs, and space requirements. 
             </h4>
