@@ -26,7 +26,7 @@ const Promotion = () => {
           </Row>
           <Row>
             <Col className='center'>
-              <p>Schedule an assessment and book a daycare day between August 1st and 15th and lock in our promotion pricing for 6 months!
+              <p>Schedule an assessment and book a daycare day between August 1st and 23rd and lock in our promotion pricing for 6 months!
               </p>
             </Col>
           </Row>
