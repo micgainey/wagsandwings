@@ -11,7 +11,7 @@ const Promotion = () => {
 
   return (
     <>
-      <Offcanvas show={show} onHide={handleClose} placement='bottom'>
+      <Offcanvas show={show} onHide={handleClose} placement='top'>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title><h3>Grand Opening Promotion!</h3></Offcanvas.Title>
         </Offcanvas.Header>
