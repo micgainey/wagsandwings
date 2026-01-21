@@ -9,7 +9,7 @@ import Promotion from '../../componentsv2/Promotion';
 const NewLanding = () => {
   return (
     <>
-      <Promotion />
+      {/* <Promotion /> */}
       {/* Main Landing */}
       <MainLanding />
       {/* Daycare */}
