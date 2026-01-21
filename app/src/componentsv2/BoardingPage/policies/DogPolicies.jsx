@@ -5,14 +5,14 @@ const DogPolicies = () => {
     <>
 
       <ul>
-        <li>
+        {/* <li>
           <strong>If you are boarding a dog, we will take 1 small animal at no charge. (rabbit, guinea pig, fish, mouse, inquire about any other animal)</strong>
-        </li>
-        <ul>
+        </li> */}
+        {/* <ul>
           <li>
             Based on space available..
           </li>
-        </ul>
+        </ul> */}
         <li>
           Cost of boarding will be determined by the weight of your dog.
         </li>
