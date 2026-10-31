@@ -56,13 +56,18 @@ const BoardingLanding = () => {
                 </Row>
                 <Row>
                   <Col>
-                    <h3 className='white-text'>$57.00</h3>
+                    <h3 className='white-text'>$61.00</h3>
                   </Col>
                   <Col>
-                    <h3 className='white-text'>$67.00</h3>
+                    <h3 className='white-text'>$73.00</h3>
                   </Col>
                   <Col>
-                    <h3 className='white-text'>$75.00</h3>
+                    <h3 className='white-text'>$83.00</h3>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <h6 className="white-text">Updated October 31st, 2026</h6>
                   </Col>
                 </Row>
               </Container>
@@ -114,13 +119,18 @@ const BoardingLanding = () => {
                 </Row>
                 <Row>
                   <Col>
-                    <h3 className='white-text'>$57.00</h3>
+                    <h3 className='white-text'>$61.00</h3>
                   </Col>
                   <Col>
-                    <h3 className='white-text'>$67.00</h3>
+                    <h3 className='white-text'>$73.00</h3>
                   </Col>
                   <Col>
-                    <h3 className='white-text'>$75.00</h3>
+                    <h3 className='white-text'>$83.00</h3>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <h6 className='white-text'>Updated October 31st, 2026</h6>
                   </Col>
                 </Row>
               </Container>
