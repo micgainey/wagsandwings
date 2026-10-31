@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import DogOffer from '../offers/DogOffer';
 import DogPolicies from '../policies/DogPolicies';
 import Accordion from 'react-bootstrap/Accordion';
@@ -26,9 +26,15 @@ function DogSection() {
               <Col><p>Over 56lbs</p></Col>
             </Row>
             <Row className='center'>
-              <Col><p>$57.00</p></Col>
-              <Col><p>$67.00</p></Col>
-              <Col><p>$75.00</p></Col>
+              <Col><p>$61.00</p></Col>
+              <Col><p>$73.00</p></Col>
+              <Col><p>$83.00</p></Col>
+            </Row>
+            <Row>
+              <Col className='center'>
+                <br/>
+                <h6>Updated October 31st, 2026</h6>
+              </Col>
             </Row>
           </Accordion.Body>
         </Accordion.Item>

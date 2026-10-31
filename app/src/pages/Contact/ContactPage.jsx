@@ -27,7 +27,6 @@ const ContactPage = () => {
       <Row className='center'>
         <h4>For urgent after hour needs, please text:</h4>
       </Row>
-      <Row className='center'><h5>808-216-0432</h5></Row>
       <Row className='center'><h5>808-226-3749</h5></Row>
       <Row className='center'><h4>We will get to you as soon as we can!</h4></Row>
     </Container>
