@@ -16,7 +16,7 @@ function SmallAnimalSection() {
           <Accordion.Header>Pricing</Accordion.Header>
           <Accordion.Body>
             <p>Small animals: $35.00</p>
-            <p>+$5.00 if your pet requires fresh veggie's</p>
+            <p>+$5.00/night if you would like us to provide fresh vegetables for your small animal.</p>
             <Row>
               <Col className='center'>
                 <br/>
